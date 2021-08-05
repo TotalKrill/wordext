@@ -5,6 +5,7 @@ authors = ["Kristoffer Ödmark <kristoffer.odmark90@gmail.com>"]
 edition = "2018"
 description = "Extracts the nth word of a line, or lines read from stdin and writes them to stdout"
 license = "MIT"
+repository = "https://github.com/TotalKrill/wordext.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
