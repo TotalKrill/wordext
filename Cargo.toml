@@ -1,6 +1,6 @@
 [package]
 name = "wordext"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Kristoffer Ödmark <kristoffer.odmark90@gmail.com>"]
 edition = "2018"
 description = "Extracts the nth word of a line, or lines read from stdin and writes them to stdout"
