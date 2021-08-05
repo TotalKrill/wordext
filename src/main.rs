@@ -23,6 +23,7 @@ fn main() {
         let mut first = true;
         for line in lines {
             if !first {
+                // Add a newline explicitly before the new word
                 println!();
             }
             first = false;
@@ -32,7 +33,7 @@ fn main() {
         }
     } else {
         let lines: Vec<String> = lines.into_iter().filter_map(|e| e.ok()).collect();
-        println!("{:?}", lines);
+        //println!("{:?}", lines);
         let mut line = String::new();
 
         for l in lines {
@@ -40,7 +41,7 @@ fn main() {
             line.push_str(" ");
         }
         let line = line.trim();
-        println!("{}", line);
+        //println!("{}", line);
         print_word_from_line(opt.nth, &line);
     }
 }
