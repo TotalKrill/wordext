@@ -6,7 +6,7 @@ Extracts the nth word of the input, either of the entire input, or per line
 
 This can be used to create a worse edition of killall using kill, example, killing all vim processes
 
- ``
+```
 ps -e | grep vim | wordext -r -n 0 | xargs kill -9
 ```
 
